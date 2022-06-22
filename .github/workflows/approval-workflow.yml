@@ -4,7 +4,7 @@ jobs:
   labelWhenApproved:
     runs-on: ubuntu-latest
     steps:
-      - name: Label when approved
+      - name: Label when Approved
         uses: abinoda/label-when-approved-action@1.0.7
         env:
          APPROVALS: "1"
