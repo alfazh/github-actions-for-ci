@@ -22,6 +22,7 @@ jobs:
         with:
           name: webpack artifacts
           path: public/
+  test:
     needs: build
     runs-on: ubuntu-latest
     strategy:
@@ -44,6 +45,6 @@ jobs:
         npm test
       env:
         CI: true
-    
-   
+
+
 
